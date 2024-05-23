@@ -1,0 +1,42 @@
+*{
+    padding: 0;margin: 0;
+}
+.header{
+    border: solid 1px black;
+    height: 100px;
+    width: 100%;
+     background-color:black;
+    display: flex;
+    justify-content: start;
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+    font-family: sans-serif;
+    color: red;
+    text-shadow: 5px 1px 10px gray;
+}
+.container{
+    border: solid 1px black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(black,yellow);
+}
+img{
+    position: absolute;
+    top: 150px;
+}
+span{
+    position: absolute;
+    top: 300px;
+}
+b{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 350px;
+}
